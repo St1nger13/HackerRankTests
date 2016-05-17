@@ -24,7 +24,7 @@ public class DeleteNodeExampleTest
 	}
 	
 	@Test 
-	public void deleteFirstNode()
+	public void delete_First_Node()
 	{
 		head = obj.deleteNode(head, 0) ;
 		assertEquals(1, LinkedListHelper.getNodeAt(head, 0).data) ;
@@ -32,7 +32,7 @@ public class DeleteNodeExampleTest
 	}
 	
 	@Test
-	public void deleteMiddleNode()
+	public void delete_Middle_Node()
 	{
 		head = obj.deleteNode(head, 3) ;
 		assertEquals(4, LinkedListHelper.getNodeAt(head, 3).data) ;
@@ -40,7 +40,7 @@ public class DeleteNodeExampleTest
 	}
 	
 	@Test
-	public void deleteLastNode()
+	public void delete_Last_Node()
 	{
 		head = obj.deleteNode(head, 12) ; 
 		assertEquals(10, LinkedListHelper.getNodeAt(head, 10).data) ;

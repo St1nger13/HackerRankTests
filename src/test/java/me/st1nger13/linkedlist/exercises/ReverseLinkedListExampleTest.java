@@ -22,7 +22,7 @@ public class ReverseLinkedListExampleTest
 	}
 	
 	@Test
-	public void firstNodeShouldBeLastBeforeReverse()
+	public void first_Node_Should_Be_Last_Before_Reverse()
 	{
 		head = obj.reverseLinkedList(head) ;
 		assertEquals(14, LinkedListHelper.getNodeAt(head, 0).data) ;

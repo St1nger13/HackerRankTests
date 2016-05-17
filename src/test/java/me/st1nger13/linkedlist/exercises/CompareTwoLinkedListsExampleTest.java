@@ -28,13 +28,13 @@ public class CompareTwoLinkedListsExampleTest
 	}
 	
 	@Test 
-	public void listShouldBeEqual()
+	public void lists_Should_Be_Equal()
 	{
 		assertTrue(obj.compareLists(head1, head2)) ;
 	}
 	
 	@Test
-	public void listsShouldNotBeEqual()
+	public void lists_Should_Not_Be_Equal()
 	{
 		assertFalse(obj.compareLists(head3, head4)) ;
 		head1.data = 100 ;

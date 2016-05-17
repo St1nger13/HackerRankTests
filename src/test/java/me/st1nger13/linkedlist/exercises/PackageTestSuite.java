@@ -8,7 +8,9 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
 		DeleteNodeExampleTest.class , 
 		ReverseLinkedListExampleTest.class ,
-		CompareTwoLinkedListsExampleTest.class
+		CompareTwoLinkedListsExampleTest.class ,
+		MergeTwoLinkedListsExampleTest.class ,
+		GetNodeByBackwardPositionExampleTest.class
 	})
 
 public final class PackageTestSuite 
