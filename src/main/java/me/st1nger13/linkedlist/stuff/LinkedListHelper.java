@@ -1,4 +1,4 @@
-package me.st1nger13.nodes.stuff;
+package me.st1nger13.linkedlist.stuff;
 
 public class LinkedListHelper 
 {

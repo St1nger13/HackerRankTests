@@ -1,7 +1,7 @@
-package me.st1nger13.nodes.exercises;
+package me.st1nger13.linkedlist.exercises;
 
-import me.st1nger13.nodes.stuff.LinkedListHelper;
-import me.st1nger13.nodes.stuff.Node;
+import me.st1nger13.linkedlist.stuff.LinkedListHelper;
+import me.st1nger13.linkedlist.stuff.Node;
 
 /**
  * Delete a Node from own LinkedList <br>

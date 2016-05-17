@@ -1,11 +1,13 @@
-package me.st1nger13.nodes.exercises;
+package me.st1nger13.linkedlist.exercises;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.* ;
-import me.st1nger13.nodes.stuff.LinkedListHelper;
-import me.st1nger13.nodes.stuff.Node;
+
+import me.st1nger13.linkedlist.exercises.DeleteNodeExample;
+import me.st1nger13.linkedlist.stuff.LinkedListHelper;
+import me.st1nger13.linkedlist.stuff.Node;
 
 
 public class DeleteNodeExampleTest
